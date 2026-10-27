@@ -1,0 +1,9 @@
+{
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/vip-expire",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
